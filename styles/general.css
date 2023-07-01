@@ -1,0 +1,17 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  body {
+    /* This style below will be inherited */
+    background-image:url(../images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: -50px;
+  }
+  

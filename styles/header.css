@@ -1,0 +1,67 @@
+.header {
+    height: 100px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  
+    background-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #B7C2DB;
+
+  }
+  .left-section-head {
+    width: 550px;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    height: 80px;
+    margin: 10px 20px ;
+  }
+  .header-title{
+   font-family: 'Roboto', 'Agdasima', Helvetica, sans-serif;
+   font-size:medium;
+   font-weight: 900;
+   margin: -10px;
+   color: #5d80d1;
+   text-shadow: 1px 1px #93a4ca;
+  }
+
+  .right-section-head {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding: 0 150px 0 275px;
+    font-family: 'Roboto', 'Agdasima', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #93a4ca;
+    cursor: pointer;
+  }
+
+  .header-home:hover {
+    text-decoration: underline;
+  }
+
+  .header-about:hover {
+    text-decoration: underline;
+  }
+
+  .header-service:hover {
+    text-decoration: underline;
+  }
+
+  .header-contact:hover {
+    text-decoration: underline;
+  }
+
